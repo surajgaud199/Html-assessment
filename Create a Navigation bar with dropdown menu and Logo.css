@@ -1,0 +1,55 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Logo Section */
+.logo img {
+    height: 40px;
+}
+
+/* Menu Items Section */
+.menu {
+    display: flex;
+}
+
+/* Individual Menu Item */
+.menu-item {
+    position: relative;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Dropdown Container */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown Item */
+.dropdown-item {
+    padding: 10px 20px;
+    color: white;
+    display: block;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+/* Show Dropdown on Hover */
+.menu-item:hover .dropdown {
+    display: block;
+}
+
+/* Dropdown Item Hover Effect */
+.dropdown-item:hover {
+    background-color: #555;
+}
